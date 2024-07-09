@@ -1,6 +1,6 @@
 # Hajar Makrini's Portfolio
 
-## Introduction
+## Introduction :
 Welcome to the portfolio of Hajar Makrini! This portfolio is a visual and interactive presentation of my skills, academic journey, and projects. It has been designed using modern technologies such as HTML, CSS, JavaScript, and jQuery as well as CSS preprocessors like Sass.
 
 ### Structure of the Portfolio
