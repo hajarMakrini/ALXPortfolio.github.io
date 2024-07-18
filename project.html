@@ -1,0 +1,208 @@
+<!DOCTYPE HTML>
+                <!-- Welcome to my portfolio Code  -->
+						 <!-- By: Hajar Makrini -->
+<html>
+	<head>
+		<title>project</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			.image-container {
+				display: flex; /* Utilisation de flexbox pour aligner les images horizontalement */
+			}
+			.image-container img {
+				max-width: 100%; /* Pour s'assurer que les images ne dépassent pas de leur conteneur */
+				margin-right: 10px; /* Espacement entre les images (modifiable selon vos préférences) */
+			}
+		</style>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">HELLO!</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">welcome to my portfolio</a></li>
+							<li ><a href="elements.html">ALX Journey</a></li> 
+                            <li class="active"><a href="project.html">projects</a></li>
+                            <li><a href="part.html">ABOUT ME</a></li>
+						</ul>
+						<ul class="icons ">
+							<li><a href="https://x.com/HajarMkr" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="https://www.linkedin.com/in/hajar-makrini-416482218/" target="_blank" class="linkedin">
+								<i class="fab fa-linkedin-in"></i>
+							</a><span class="label"></span></a></li>
+							<li><a href="Mailto:makrinihajar@gmail.com" target="_blank" class="gmail">
+								<i class="fas fa-envelope"></i></a></li>
+							<li><a href="https://github.com/hajarMakrini" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									<h1>The <br />
+									Maze project </h1>
+								</header>
+
+								<span class="image fit"><img src="images/A.jpeg" alt="" /></span>
+
+						
+
+									<h2>Introduction :</h2>
+									</p>
+									<p>Welcome to the Maze Game Project!
+										This innovative project aims to create a 
+									   3D maze game using SDL2 (Simple DirectMedia Layer)
+										and raycasting techniques. By transforming a 2D
+										map into a fully navigable 3D world, you'll experience
+										the thrill of exploring intricate corridors and finding 
+									   your way to the maze's end. This project not only showcases
+										the power of raycasting for rendering 3D graphics but also
+										offers an immersive and challenging gameplay
+										experience in a dynamic maze environment</p>
+										<h2>Team Members :</h2> <strong>hajar makrini</strong> 
+										<ul>
+									   <h2>Purpose of the Project</h2>The purpose of this project is to explore game development,
+										inspired by my love for gaming. I wanted to understand how 
+									   games are made and develop professional skills in this area.
+										By creating this 3D maze game using SDL2 and raycasting,
+										I aimed to learn the basic concepts and techniques needed
+										to turn a 2D 
+									   map into a 3D world that players can explore
+									   <h2>Challenge </h2>
+										<p>The most challenging part of developing my 3D maze game was implementing raycasting to transform a 2D map into a 3D world. Raycasting works by sending out rays from the player's perspective, which travel through the maze and detect walls and obstacles. These rays help calculate distances and angles, creating the illusion of depth and rendering the 3D scene on the screen. This process was technically demanding, requiring precise calculations and efficient coding to achieve smooth and realistic graphics.</p>
+
+									   <div class="image-container">
+										<img src="images/alx project .png" alt="Image 1">
+										
+										
+									</div>
+									   
+									  
+									  <h2>Color and Texture:</h2> <p>Differentiates elements with varied colors and textures, enhancing visual clarity and atmospheric immersion.
+									
+										<div class="image-container">
+											<img src="images/mur vert.png" alt="Image 1">
+											<img src="images/murs bleu.png" alt="Image 2">
+											<img src="images/muuur.png" alt="Image 3">
+										</div>
+										
+									</p></ul>
+									<h2>Technologies Used and Reasons for Choice
+									</h2>
+									<ul>
+									  <li><strong>SDL2 (Simple DirectMedia Layer):</strong> We chose SDL2 because it 
+										supports multimedia like graphics, audio, and input handling. 
+										SDL2 is versatile and performs well, making it a favorite for 
+										game developers. <a href="https://www.libsdl.org/download-2.0.php">download</a></li>
+									  <li><strong>C Programming Language:</strong>We picked C for its performance and
+										control over system resources, which are important in game
+										development. Learning C also helped build a strong foundation 
+									   in programming basics and low-level memory management.</li>
+									  <li><strong>Raycasting:</strong> We used raycasting to create the 3D environment 
+										from a 2D map. It's a classic method in game development that makes
+										 3D effects in a 2D space, providing efficient and appealing 
+										graphics..</li>
+										<li><strong>Git:</strong>Git was used for version control to manage the project's
+											codebase. It made it easy to track changes, collaborate 
+										   (if needed), and keep a history of the project's development.
+										   </li>
+										   <li><strong>Makefile:</strong>The Makefile was used to automate the build 
+											process, ensuring the project compiled consistently and efficiently,
+											 reducing manual errors and simplifying the development workflow.</li>
+									</ul>
+									<h2>Game Mechanics</h2>
+									<ul>
+									  <li><strong>Player Control:</strong> Enables precise camera (player) movement and rotation through keyboard inputs, ensuring responsive and immersive gameplay.</li>
+									  <li><strong>Collision Detection:</strong> Implements robust collision detection to prevent player movement through walls, with potential sliding mechanics for realistic interactions.</li>
+									  <li><strong>Interaction Feedback:</strong> Provides visual and auditory cues for player actions, enhancing immersion and gameplay responsiveness.</li>
+									</ul>
+								  
+									<h2>Map Design</h2>
+									<ul>
+									  <li><strong>Map Parsing:</strong> Incorporates a parser to read map data from files, defining wall placements and open spaces using specific characters, allowing for dynamic and customizable level design.</li>
+									  <li><strong>Map Rendering:</strong> Renders parsed maps directly onto the game window, updating in real-time based on player movement and line of sight, facilitating navigation and strategic planning.</li>
+									</ul>
+								  
+									<h2>Development Requirements</h2>
+									<ul>
+									  <li><strong>Platform and Compilation:</strong> Developed on Ubuntu 14.04 LTS using gcc and g++ with specific compiler flags (-Wall -Werror -Wextra -pedantic), ensuring robust and cross-compatible code in both C and C++.</li>
+									</ul>
+									
+										<h2>Installation</h2>
+										<pre><code>$ git clone https://github.com/hajarMakrini/mazeGame.git</code></pre>
+
+										<h2>Usage</h2>
+										<pre><code>Execute ./maze or type make run</code></pre>
+										<p>Use up and down arrow keys to move forward and backward (keys <code>w</code> and <code>s</code> serve the same function).</p>
+										<p>Use right and left arrow keys to turn the camera around (keys <code>d</code> and <code>a</code> serve the same function).</p>
+										<h2>GitHub Repository</h2>
+										<p>Check out my 3D maze game project on GitHub: <a href="https://github.com/hajarMakrini/mazeGame.git" target="_blank">GitHub Repository</a></p>
+										<p>I would be happy to hear your thoughts! Feel free to contact me:</p>
+										<ul class="actions special">
+											<li><a href="index.html" class="button large">Home</a></li>
+										</ul>
+									</section>	
+					</div>
+			<!-- Footer -->
+			<footer id="footer">
+						
+				<section class="split contact">
+					<section class="alt" class="contact-section">
+						<h3>Address</h3>
+						<p>Morocco<br />
+						Fez-Meknes,CP 50070</p>
+					</section>
+					<section>
+						<h3>Phone</h3>
+						<p><a href="#">+212 658128079</a></p>
+					</section>
+					<section>
+						<h3>Email</h3>
+						<p><a href="Mailto:makrinihajar@gmail.com">makrinihajar@gmail.com</a></p>
+					</section>
+					<section>
+						<h3>Social</h3>
+						<ul class="icons">
+							<li><a href="https://x.com/HajarMkr" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="https://www.linkedin.com/in/hajar-makrini-416482218/" target="_blank" class="linkedin">
+								<i class="fab fa-linkedin-in"></i>
+							</a><span class="label"></span></a></li>
+							<li><a href="Mailto:makrinihajar@gmail.com" target="_blank" class="gmail">
+								<i class="fas fa-envelope"></i></a></li>
+							<li><a href="https://github.com/hajarMakrini" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</section>
+				</section>
+			</footer>
+
+		<!-- Copyright -->
+			<div id="copyright">
+				<li>Copyright &copy; <a href="https://www.linkedin.com/in/hajar-makrini-416482218/">HajarMakrini</a></li>
+			</div>
+	</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
